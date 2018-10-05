@@ -20,7 +20,7 @@ void setup(){
   
   //indicams que los altavoces o puerto jack son de salida
   pinMode(jack, OUTPUT);
-  }
+}
 void loop(){
   //Definimos resultado a 0
 int resultado = 0; 
@@ -144,5 +144,4 @@ int int_menique=digitalRead(menique);
       noTone(jack);// No suena nada 
       break;
   }
-
-  }
+}
